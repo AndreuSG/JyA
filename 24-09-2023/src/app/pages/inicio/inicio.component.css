@@ -1,0 +1,62 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inicio-container {
+  max-width: 800px;  /*Ancho máximo del contenedor*/
+  margin: 50px auto;      /*Centrado en la página con espacio superior e inferior de 50px*/
+  padding: 20px 30px;   /*Espaciado interno*/
+  background-color: #0e0e0e;  /*Fondo del contenedor negro pero ligeramente diferente del fondo de la página para crear contraste*/
+  border-radius: 15px;  /*Bordes redondeados*/
+  border: 2px solid #8e44ad;  /*Borde lila*/
+  box-shadow: 0 0 15px #8e44ad;  /*Sombra lila para un efecto de "glow"*/
+  position: relative;  /*Posicionamiento para permitir el uso de elementos posicionados en el contenedor*/
+}
+
+.fecha {
+  font-size: 0.9rem;
+  color: #8e44ad;  /*Color lila para la fecha */
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: 1px solid #8e44ad;  /*Borde lila para la fecha*/
+}
+
+.inicio-title {
+  font-size: 1.7rem;
+  color: #d1c4e9;  /*Color lila claro para el tiútulo */
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+}
+
+.inicio-message {
+  font-size: 1.1rem;  /*Texto ligeramente más grande para mejor legibilidad*/
+  color: #ccc;  /* Texto gris claro para contraste*/
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.inicio-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;  /*Alinea el botón a la derecha*/
+}
+
+.inicio-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #8e44ad;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #d1c4e9;
+  }
+}

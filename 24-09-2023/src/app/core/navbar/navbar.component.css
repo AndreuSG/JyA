@@ -1,0 +1,85 @@
+.menubar-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-md-flex {
+  display: flex !important;
+}
+
+.d-md-none {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .d-md-none {
+    display: block !important;
+  }
+  .d-md-flex {
+    display: none !important;
+  }
+}
+
+/* Estilo para la lista del menú en el sidebar */
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 1rem;
+}
+
+.sidebar-menu li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.sidebar-menu li a:hover {
+    color: #8e44ad;
+}
+
+.sidebar-menu li a i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.p-sidebar {
+    width: 250px;
+}
+
+/* Estilo para el header del sidebar */
+.sidebar-header {
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.sidebar-header h3 {
+  font-size: 1.5rem;
+  color: #6c757d;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-header h3 i {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: #f195eaf5; /* Un color rosado para el corazón */
+}
+

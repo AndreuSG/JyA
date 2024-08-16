@@ -1,0 +1,30 @@
+<!-- Menubar para pantallas grandes -->
+<div class="menubar-wrapper d-none d-md-flex">
+  <p-menubar [model]="items"></p-menubar>
+</div>
+
+<!-- Sidebar siempre visible en pantallas pequeñas -->
+<div class="d-md-none">
+  <p-sidebar [(visible)]="sidebarVisible" position="left" [baseZIndex]="10000">
+
+    <div class="sidebar-header">
+      <h3>
+        <i class="pi pi-heart"></i>
+        Love Menu
+        <i class="pi pi-heart"></i>
+      </h3>
+    </div>
+
+    <ul class="sidebar-menu">
+        <li *ngFor="let item of items">
+            <a [routerLink]="item.routerLink">
+                <i [class]="item.icon"></i>
+                <span>{{item.label}}</span>
+            </a>
+        </li>
+    </ul>
+</p-sidebar>
+  <button pButton type="button" icon="pi pi-bars" (click)="sidebarVisible=true"></button>
+</div>
+
+
