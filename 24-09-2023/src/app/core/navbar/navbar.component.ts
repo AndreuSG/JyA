@@ -16,9 +16,7 @@ export class NavbarComponent implements OnInit {
       { label: 'Inicio', icon: 'pi pi-home', routerLink: '/' },
       { label: 'Nuestra Historia', icon: 'pi pi-book', routerLink: '/nuestra-historia' },
       { label: 'Viajes', icon: 'pi pi-globe', routerLink: '/viajes' },
-      { label: 'Momentos Especiales', icon: 'pi pi-heart', routerLink: '/momentos-especiales' },
       { label: 'Nuestro Futuro', icon: 'pi pi-calendar', routerLink: '/futuro' },
-      { label: 'Galería', icon: 'pi pi-image', routerLink: '/galeria' },
       { label: 'Sorpresa Especial', icon: 'pi pi-star', routerLink: '/sorpresa-especial' }
     ];
   }

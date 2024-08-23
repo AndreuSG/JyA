@@ -15,16 +15,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/viajes/viajes.module').then(m => m.ViajesModule)
   },
   {
-    path: 'momentos-especiales',
-    loadChildren: () => import('./pages/momentos-especiales/momentos-especiales.module').then(m => m.MomentosEspecialesModule)
-  },
-  {
     path: 'futuro',
     loadChildren: () => import('./pages/futuro/futuro.module').then(m => m.FuturoModule)
-  },
-  {
-    path: 'galeria',
-    loadChildren: () => import('./pages/galeria/galeria.module').then(m => m.GaleriaModule)
   },
   {
     path: 'sorpresa-especial',
