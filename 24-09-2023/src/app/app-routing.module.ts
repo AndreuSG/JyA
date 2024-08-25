@@ -11,14 +11,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/historia/historia.module').then(m => m.HistoriaModule)
   },
   {
-    path: 'viajes',
-    loadChildren: () => import('./pages/viajes/viajes.module').then(m => m.ViajesModule)
-  },
-  {
-    path: 'futuro',
-    loadChildren: () => import('./pages/futuro/futuro.module').then(m => m.FuturoModule)
-  },
-  {
     path: 'sorpresa-especial',
     loadChildren: () => import('./pages/sorpresa-especial/sorpresa-especial.module').then(m => m.SorpresaEspecialModule)
   },
