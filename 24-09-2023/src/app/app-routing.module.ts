@@ -4,7 +4,6 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 
 
-// Rutas de la aplicación cargadas con lazy loading
 const routes: Routes = [
   {
     path: 'nuestra-historia',

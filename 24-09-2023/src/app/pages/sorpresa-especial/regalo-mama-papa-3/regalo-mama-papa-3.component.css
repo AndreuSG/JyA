@@ -1,0 +1,47 @@
+.regalo-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  background-color: #0e0e0e;  /* Fondo oscuro */
+  border-radius: 15px;
+  border: 2px solid #8e44ad;  /* Borde lila */
+  box-shadow: 0 0 15px #8e44ad;  /* Sombra lila */
+  text-align: center;
+}
+
+.regalo-title {
+  font-size: 1.7rem;
+  color: #d1c4e9;  /* Color lila claro */
+  margin-bottom: 20px;
+}
+
+.regalo-message {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-align: justify;  /* Alineación justificada para un mejor aspecto */
+}
+
+.regalo-actions {
+  margin-top: 30px;
+}
+
+.regalo-btn {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.1rem;
+  background-color: #8e44ad;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.regalo-btn:hover {
+  background-color: #d1c4e9;
+}
+
+.historia-image {
+  width: 100%;  /* Las imágenes ocupan todo el ancho en pantallas pequeñas */
+  margin-bottom: 20px;  /* Añade espacio debajo de la imagen */
+}

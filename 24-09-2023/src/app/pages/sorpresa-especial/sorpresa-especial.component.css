@@ -1,0 +1,37 @@
+.sorpresa-container {
+  max-width: 400px;  /* Ajustar el ancho máximo del contenedor */
+  margin: 50px auto;
+  padding: 20px 30px;
+  background-color: #0e0e0e;  /* Fondo oscuro */
+  border-radius: 15px;
+  border: 2px solid #8e44ad;  /* Borde lila */
+  box-shadow: 0 0 15px #8e44ad;  /* Sombra lila */
+  text-align: center;
+}
+
+.sorpresa-title {
+  font-size: 1.8rem;
+  color: #d1c4e9;  /* Color lila claro */
+  margin-bottom: 40px;  /* Reducir el espacio debajo del título */
+}
+
+.sorpresa-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;  /* Aumentar el espacio entre los botones */
+  padding: 0 20px;  /* Añadir un poco de espacio lateral para que los botones no toquen los bordes */
+}
+
+.sorpresa-btn {
+  padding: 12px 20px;  /* Aumentar ligeramente el relleno del botón */
+  font-size: 1.1rem;  /* Aumentar el tamaño de la fuente para hacer los botones más prominentes */
+  color: #fff;
+  background-color: #8e44ad;
+  border-radius: 8px;  /* Bordes más redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sorpresa-btn:hover {
+  background-color: #d1c4e9;  /* Cambia el color del botón al pasar el mouse */
+}

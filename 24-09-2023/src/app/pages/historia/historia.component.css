@@ -54,7 +54,7 @@ body {
 
 .final-message {
   text-align: justify;  /* Centramos el mensaje final en la página */
-  font-size: 1.6rem;  /* Tamaño de fuente mayor para resaltar el mensaje final */
+  font-size: 1.2rem;  /* Tamaño de fuente mayor para resaltar el mensaje final */
   font-weight: bold;  /* Resalta el mensaje con un texto más grueso */
 }
 
