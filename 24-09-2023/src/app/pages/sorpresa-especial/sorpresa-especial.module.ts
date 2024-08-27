@@ -5,9 +5,10 @@ import { SorpresaEspecialRoutingModule } from './sorpresa-especial-routing.modul
 import { SorpresaEspecialComponent } from './sorpresa-especial.component';
 
 
+
 @NgModule({
   declarations: [
-    SorpresaEspecialComponent
+    SorpresaEspecialComponent,
   ],
   imports: [
     CommonModule,

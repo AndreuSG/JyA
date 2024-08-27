@@ -1,6 +1,6 @@
 .sorpresa-container {
   max-width: 400px;  /* Ajustar el ancho máximo del contenedor */
-  margin: 50px auto;
+  margin: 30px auto;  /* Centrar el contenedor con un margen superior e inferior de 50px */
   padding: 20px 30px;
   background-color: #0e0e0e;  /* Fondo oscuro */
   border-radius: 15px;
@@ -18,7 +18,7 @@
 .sorpresa-buttons {
   display: flex;
   flex-direction: column;
-  gap: 40px;  /* Aumentar el espacio entre los botones */
+  gap: 30px;  /* Aumentar el espacio entre los botones */
   padding: 0 20px;  /* Añadir un poco de espacio lateral para que los botones no toquen los bordes */
 }
 
